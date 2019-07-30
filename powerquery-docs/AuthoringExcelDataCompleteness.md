@@ -1,3 +1,16 @@
+---
+title: Excel Data Completeness
+description: Troubleshooting data incompleteness and degraded loading performance with the Excel data source
+author: cpopell
+
+ms.service: powerquery
+ms.topic: conceptual
+ms.date: 07/30/2019
+ms.author: gepopell
+
+LocalizationGroup: reference
+---
+
 # Excel Data Completeness
 Under certain circumstances, users will run up against issues where Power Query fails to extract all the data from an Excel Worksheet, or performance is severely degraded against a reasonably sized table.
 Both of these failures generally resolve to the same cause: improper cell range specification.
